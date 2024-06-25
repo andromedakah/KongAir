@@ -42,7 +42,7 @@ paths:
              schema:
                type: string
         '500':
-          description: Service is unhealthy
+          description: Service is unhealthy and unable to accept requests
           content:
             application/json:
               schema:
