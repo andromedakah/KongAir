@@ -22,7 +22,7 @@ paths:
     get:
       operationId: get-health
       summary: Health check endpoint for Kubernetes
-      description: Endpoint that returns the service health status.
+      description: Endpoint that returns the service health status .
       tags:
       - flight-data
       responses:
@@ -177,7 +177,7 @@ paths:
           description: Successful response with the requested flight details
           headers:
            hostname:
-             description: "The hostname of the machine fulfilling the request."
+             description: "The hostname of the machine fulfilling the request and ready be used."
              schema:
                type: string
           content:
